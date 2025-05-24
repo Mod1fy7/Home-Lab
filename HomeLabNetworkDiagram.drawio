@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Home Lab Network" id="HomeLab1">
+    <mxGraphModel dx="1232" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Virtualization Host -->
+        <mxCell id="host" value="Physical Host (Laptop/Desktop)" style="shape=hexagon;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- VirtualBox / VMware -->
+        <mxCell id="virtualization" value="VirtualBox / VMware" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="160" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- pfSense -->
+        <mxCell id="pfsense" value="pfSense (Firewall)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="140" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Kali Linux -->
+        <mxCell id="kali" value="Kali Linux (Attacker)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="140" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Windows 10 -->
+        <mxCell id="win10" value="Windows 10 (Client)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="140" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Ubuntu Server -->
+        <mxCell id="ubuntu" value="Ubuntu Server (Web/SIEM)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="160" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Windows Server -->
+        <mxCell id="winserver" value="Windows Server (AD, DNS, DHCP)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell id="host_to_virtualization" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="host" target="virtualization">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="virtualization_to_pfsense" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="virtualization" target="pfsense">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="virtualization_to_kali" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="virtualization" target="kali">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="virtualization_to_win10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="virtualization" target="win10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="virtualization_to_ubuntu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="virtualization" target="ubuntu">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="win10_to_winserver" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="win10" target="winserver">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
