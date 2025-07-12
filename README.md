@@ -1,13 +1,13 @@
-# Home-Lab
-# 🛡️ Cybersecurity Home Lab Project
+# Virtual Lab 
+# Cybersecurity Project
 
-This repository documents my personal cybersecurity home lab, built to simulate real-world network environments and demonstrate practical skills in network security, system administration, and incident response.
+Welcome to my  cybersecurity home lab! It is built to simulate real-world network environments and demonstrate practical skills in network security, system administration, and incident response.
 
 ---
 
-## 🔧 Lab Components
+## Virtual Machines Used
 
-| Component        | Purpose                                  |
+| WHAT             | WHY                                  |
 |------------------|-------------------------------------------|
 | pfSense          | Virtual firewall/router                  |
 | Windows Server   | Active Directory, DNS, DHCP              |
@@ -18,14 +18,14 @@ This repository documents my personal cybersecurity home lab, built to simulate 
 
 ---
 
-## 🗺️ Network Topology
+## Network Topology
 
 ![Home Lab Network Diagram](./HomeLabNetworkDiagram.png)  
 *(Or import and view the full diagram with [draw.io](https://app.diagrams.net))*.
 
 ---
 
-## ⚙️ Project Highlights
+## Objectives Completed
 
 - 🧱 Built segmented network architecture using pfSense
 - 🔐 Hardened Windows and Linux systems with custom security policies
