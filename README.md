@@ -20,8 +20,8 @@ Welcome to my  cybersecurity home lab! It is built to simulate real-world networ
 
 ## Network Topology
 
-![Home Lab Network Diagram](./HomeLabNetworkDiagram.png)  
-*(Or import and view the full diagram with [draw.io](https://app.diagrams.net))*.
+![Home Lab Network Diagram]  
+
 
 ---
 
