@@ -28,7 +28,7 @@ Welcome to my  cybersecurity home lab! It is built to simulate real-world networ
 
 ## Objectives Completed
 
-- 🧱 Built segmented network architecture using pfSense
+- 🧱 Built segmented network using PFsense & Virtualbox Network adapter 
 - 🔐 Hardened Windows and Linux systems with custom security policies
 - 🕵️ Simulated attacks using Kali Linux (Nmap, brute-force, SQL injection)
 - 📊 Centralized log collection using Wazuh / ELK
