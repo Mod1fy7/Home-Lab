@@ -1,7 +1,7 @@
 # Virtual Lab 
 # Cybersecurity Project
 
-Welcome to my  cybersecurity home lab! It is built to simulate real-world network environments and demonstrate practical skills in network security, system administration, and incident response.
+Welcome to my  cybersecurity home lab! It is built to simulate real-world network environments and demonstrate practical skills in network security, system administration, and incident response. There are mini projects within the the home lab. 
 
 ---
 
@@ -43,12 +43,6 @@ Welcome to my  cybersecurity home lab! It is built to simulate real-world networ
 - [x] Configuration notes and screenshots
 - [x] Pentesting and response writeups
 - [x] Resume-ready project summary
-
----
-
-## 📌 Resume Example
-
-> • Designed and implemented a cybersecurity home lab using pfSense, Windows Server AD, Kali Linux, and Wazuh to simulate enterprise-level threats, run vulnerability scans, and monitor logs in a controlled virtual environment.
 
 ---
 
