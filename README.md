@@ -5,7 +5,7 @@ Welcome to my  cybersecurity home lab! It is built to simulate real-world networ
 
 ---
 
-## Virtual Machines Used
+## Virtual Machines Used [Config VM Guide](/Config-VM.md)
 
 | WHAT             | WHY                                  |
 |------------------|-------------------------------------------|
