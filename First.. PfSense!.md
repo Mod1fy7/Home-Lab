@@ -32,7 +32,7 @@
   - Name your internal network Homelab (same as the internal network name for the fire wall)
   - Do this for each vm you intend to have on the same network as the Firewall
 ---
-## Unsure how to segement the network? [Click Here](/VLAN_IP_Address_Naming_Guide.md)
+## Unsure how to segement the network? [Click Here](VLAN IP Address Naming Guide.md)
 
  ### 3 Set IP Addresses for machines 
  - Each device's method for setting an IP may be different.
