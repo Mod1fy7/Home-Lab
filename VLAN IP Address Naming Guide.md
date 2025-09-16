@@ -1,5 +1,3 @@
-Got it 👍 you want a **general, stripped-down guide** (no deep pfSense/VirtualBox details), just the core idea of how to set IPs so devices live on the same network (or different ones with VLANs). Here’s the most general version:
-
 ---
 
 # 🌐 General Guide: Setting IPs & VLANs
@@ -57,4 +55,3 @@ Examples:
 
 ---
 
-Do you want me to make a **one-page cheat sheet diagram** that shows this visually?
