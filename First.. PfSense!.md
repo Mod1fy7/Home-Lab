@@ -37,9 +37,14 @@
  ### 3 Set IP Addresses for machines 
  - Each device's method for setting an IP may be different.
  - The goal is to create VLANs!
- - Once you added the IP, you should be able to ping the Pfsense.
+ - Be sure to set the gateway to the IP of PfSense
+ 
 ---
-  <img width="496" height="289" alt="image" src="https://github.com/user-attachments/assets/445badc9-41ff-4a01-baca-1ad1749dec49" />
+> [!IMPORTANT]
+> **Once you added the IP, you should be able to ping other devices on network.**
+
+
+   <img width="496" height="289" alt="image" src="https://github.com/user-attachments/assets/445badc9-41ff-4a01-baca-1ad1749dec49" />
 
 ---
 
