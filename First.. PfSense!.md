@@ -24,3 +24,7 @@ Set Ip address for the LAN interface 192.168.10.1/24
 
  Ensure all machines are on the same LAN 
  <img width="496" height="289" alt="image" src="https://github.com/user-attachments/assets/445badc9-41ff-4a01-baca-1ad1749dec49" />
+
+ ## Set static IP address for workstations. Ensuring they are on the same LAN and subnet. 
+in this example I set the IP addresses as follows
+
