@@ -16,7 +16,7 @@
 
 ## 📡 **Part 2** Set up networking 
   - In settings --> network --> adapter --> set Adapter 1 to NAT, Adapter 2 to Homelab, and Adapter 3 to inet.
-  - Adapter 1 is set to Nat to keep the VMs isolated, but you can set this to bridged. ( if set to bridged it will get a different IP address than the Host computer has) 
+  - Adapter 1 is set to Nat to keep the VMs isolated. We will be using the homelab to simulate attacks from the Kali VM. So, it's best to keep things from leaving the host. 
   - Homelab is the name of the internal network.
   - Adapter 3 is set to inet. This will act as the DMV in later projects
  ---
