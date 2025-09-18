@@ -8,7 +8,11 @@
  
 - ### 🖊2 Assisgn interfaces
     - Set em0 as the Wan 
-    - Set static em1 as the LAN address 
+    - Set static em1 as the LAN address
+    - Add VLAN interfaces as well.
+      - I set the monitoring and logging servers on VLAN 20
+      - Clients on VLAN 30
+      - Red Team on VLan 40
 
 - ### ⌨️3 Set interfaces IP address 
   - Set Ip address for the WAN interface 10.0.0.1/24 ( the address should be the hosts' IP address)
@@ -36,8 +40,10 @@
 
  ### 3 Set IP Addresses for machines 
  - Each device's method for setting an IP may be different.
- - The goal is to create VLANs!
  - Be sure to set the gateway to the IP of PfSense
+ - After the IP is set run ipconfig or ifconfig to ensure everything looks good
+ - Ping the gateway and run ping 8.8.8.8 to ensure you can reach the gateway & the internet. 
+
  
 ---
 > [!IMPORTANT]
